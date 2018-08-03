@@ -1,0 +1,45 @@
+/* Name: stylinsta.css
+   Date: 30th Jan 2018
+   Description: Some CSS practise #:o)
+*/
+
+/* background Graph Paper */
+body { 
+    background-size: 120px 120px;
+    background-image: linear-gradient(to right, lightgrey 1px, transparent 1px), linear-gradient(to bottom, lightgrey 1px, whitesmoke 1px);
+}
+
+* {
+   font-family: 'Lato', sans-serif;
+}
+
+.header {
+   padding-bottom: 10px;
+   text-align: center;
+   color: white;
+   background-color: silver;
+   font-size: 28px;
+}
+
+/* Make the photos look lile Polaroids */
+img{
+   background-color: white;
+   border: 1px solid lightgrey;
+   border-radius: 3px;
+   margin: 5px;
+   padding: 10px;
+   padding-bottom: 40px;
+   box-shadow: 5px 5px 20px 0px grey;
+}
+
+img:hover {
+   box-shadow: 5px 5px 40px 0px blue;
+}
+
+.footer {
+   font-size: 28px;
+   color: white;
+   background-color: silver;
+   text-align: center;
+   margin-top: 40px;
+}
